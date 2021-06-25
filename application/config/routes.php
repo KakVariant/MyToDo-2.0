@@ -72,6 +72,11 @@ return [
         'action' => 'add',
     ],
 
+    'MyToDo/todo/addTaskRule' => [
+        'controller' => 'todo',
+        'action' => 'addTaskRule',
+    ],
+
     'MyToDo/todo/done/{id:\d+}' => [
         'controller' => 'todo',
         'action' => 'done',

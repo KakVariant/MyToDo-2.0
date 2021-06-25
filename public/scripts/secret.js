@@ -10,7 +10,6 @@ let isDown = false;
 function up(e){
     if(e.keyCode == keyUp)
     {
-        console.log("up");
         isUp = true;
     }
 }
@@ -18,7 +17,6 @@ function up(e){
 function right(e){
     if(e.keyCode == keyRight)
     {
-        console.log("right");
         isRight = true;
     }
     else
@@ -32,7 +30,6 @@ function right(e){
 function down(e){
     if(e.keyCode == keyDown)
     {
-        console.log("down");
         isDown = true;
     }
     else

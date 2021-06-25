@@ -36,6 +36,25 @@ class Todo extends Model
     }
 
 
+    public function addTaskRule()
+    {
+        if(!empty($_COOKIE['task-rul']))
+        {
+            $params = [
+                'task' => strip_tags($_COOKIE['task-rul']),
+                'priority' => 2,
+                'user_id' => $_COOKIE['email'],
+                'group_id' => $_COOKIE['group_id'],
+            ];
+    
+            $this->db->query('INSERT INTO todo (task, activity, priority, group_id, user_id) VALUES (:task, 0, :priority, :group_id, :user_id)', $params);
+            setcookie('task-rul', '', time() - 3600);
+            return true;
+        }
+        return  false;
+    }
+
+
 
 
     public function doneTask($id)

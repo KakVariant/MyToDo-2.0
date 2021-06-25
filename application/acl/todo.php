@@ -7,6 +7,7 @@ return [
     'authorize' => [
         'show',
         'add',
+        'addTaskRule',
         'done',
         'delete',
         'pole'

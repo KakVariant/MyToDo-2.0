@@ -68,4 +68,10 @@ class TodoController extends Controller
         $this->view->layout = 'pole';
         $this->view->render('My ToDo - поле чудес');
     }
+
+    public function addTaskRuleAction()
+    {
+        $this->model->addTaskRule();
+        $this->view->redirect('/MyToDo/todo/show');
+    }
 }

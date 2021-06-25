@@ -217,7 +217,7 @@ function go()
 function addTask()
 {
     document.cookie = "task-rul="+result.textContent+"; max-age=3600";
-    window.location.href = '/MyToDo/action/addTaskRul.php';
+    window.location.href = '/MyToDo/todo/addTaskRule';
 }
 
 addEventListener("keydown", addEnter);
