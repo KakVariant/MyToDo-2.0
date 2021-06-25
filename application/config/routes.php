@@ -82,6 +82,11 @@ return [
         'action' => 'delete',
     ],
 
+    'MyToDo/todo/pole' => [
+        'controller' => 'todo',
+        'action' => 'pole',
+    ],
+
 
 
 

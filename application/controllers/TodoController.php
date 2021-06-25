@@ -61,4 +61,11 @@ class TodoController extends Controller
             $this->view->redirect('/MyToDo');
         }
     }
+
+    public function poleAction()
+    {
+        parent::__construct($this->route);
+        $this->view->layout = 'pole';
+        $this->view->render('My ToDo - поле чудес');
+    }
 }

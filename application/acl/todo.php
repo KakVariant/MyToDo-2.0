@@ -9,6 +9,7 @@ return [
         'add',
         'done',
         'delete',
+        'pole'
     ],
     'guest' => [
         //
