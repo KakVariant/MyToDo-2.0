@@ -1,5 +1,5 @@
 <body class="body">
-<a href="/MyToDo/index.php" class="btn btn-outline-light exit-btn">X</a>
+<a href="/MyToDo/todo/show" class="btn btn-outline-light exit-btn">X</a>
 <div class="container-sm d-flex justify-content-center title-text">
     <div class="title-letter letter">П</div>
     <div class="title-letter letter">о</div>
@@ -69,5 +69,4 @@
         </div>
     </div>
     <img class="yakybovich" src="/MyToDo/public/images/yakybovich.png" alt="Крутите барабан!">
-    <script src="/MyToDo/public/scripts/pole.js"></script>
 </body>
