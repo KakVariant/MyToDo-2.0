@@ -98,6 +98,14 @@ body
     font-size: 22px;
 }
 
+
+.end-menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .mobile-row
 {
     display: none;

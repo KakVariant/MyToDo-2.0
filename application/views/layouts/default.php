@@ -48,15 +48,17 @@
                 </li>
             </ul>
             <hr class="mobile-row" />
-            <a href="/MyToDo/account/setting" class="profile">
-                <div class="box-mini">
-                    <img src="/MyToDo/upload/avatar/<?php echo $_COOKIE['avatar']; ?>" alt="avatar" class="profile-icon">
-                </div>
-                <?php echo $_COOKIE['name']; ?>
-            </a>
-            <a href="/MyToDo/account/logout" class="profile">
-                <i class="fa fa-sign-out logout" aria-hidden="true"></i>
-            </a>
+            <div class="end-menu">
+                <a href="/MyToDo/account/setting" class="profile">
+                    <div class="box-mini">
+                        <img src="/MyToDo/upload/avatar/<?php echo $_COOKIE['avatar']; ?>" alt="avatar" class="profile-icon">
+                    </div>
+                    <?php echo $_COOKIE['name']; ?>
+                </a>
+                <a href="/MyToDo/account/logout" class="profile">
+                    <i class="fa fa-sign-out logout" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </nav>
 

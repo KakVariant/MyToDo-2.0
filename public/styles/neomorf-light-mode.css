@@ -95,6 +95,13 @@ body
 }
 
 
+.end-menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .swal2-show, .swal2-hide
 {
     background-color: #E9EDF4;
